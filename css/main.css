@@ -238,6 +238,12 @@ h4 a:hover {
     height: 2px;
 }
 
+.white {
+    padding: 0 0 0 20px;
+    margin: 8% 0 0 0;
+    height: 2px;
+}
+
 .blue h2 {
     position: relative;
     bottom: 18px;
@@ -290,6 +296,21 @@ h4 a:hover {
 
 #contact {
 	margin: 0;
+}
+
+.contact {
+    float: left;
+    margin: 0 6px 0 0;
+    opacity: .4
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /* ==========================================================================
